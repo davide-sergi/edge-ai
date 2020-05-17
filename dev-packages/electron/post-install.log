@@ -1,0 +1,3 @@
+(Fri, 15 May 2020 12:37:22 GMT) info: Found cached ffmpeg library.
+(Fri, 15 May 2020 12:37:22 GMT) info: Hashes are equal, not replacing the ffmpeg library.
+(Fri, 15 May 2020 12:37:22 GMT) info: "/Users/sergi/work/projects/edge-ai/theia/theia-ide-1.1.0/node_modules/electron/dist/Electron.app/Contents/Frameworks/Electron Framework.framework/Libraries/libffmpeg.dylib" does not contain proprietary codecs (16 found).

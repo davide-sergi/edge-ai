@@ -1,0 +1,43 @@
+{
+  "name": "docker",
+  "displayName": "Docker Language Basics (built-in)",
+  "description": "Provides syntax highlighting and bracket matching in Docker files.",
+  "version": "1.44.2",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "scripts": {},
+  "contributes": {
+    "languages": [
+      {
+        "id": "dockerfile",
+        "extensions": [
+          ".dockerfile"
+        ],
+        "filenames": [
+          "Dockerfile"
+        ],
+        "aliases": [
+          "Dockerfile"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dockerfile",
+        "scopeName": "source.dockerfile",
+        "path": "./syntaxes/docker.tmLanguage.json"
+      }
+    ]
+  },
+  "keywords": [
+    "Built-in"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theia-ide/vscode-builtin-extensions"
+  }
+}
